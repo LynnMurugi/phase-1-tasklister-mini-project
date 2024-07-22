@@ -35,3 +35,60 @@ button {
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
 }
+/* Custom CSS */
+form {
+  margin-top: 1.25em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  text-align: center;
+
+  input[type="text"] {
+    text-align: center;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+  }
+}
+
+#list {
+  margin-top: 2em;
+
+  ul {
+    list-style-type: none;
+    margin-top: 1em;
+  }
+
+  li {
+    margin-top: 0.25em;
+  }
+
+  span {
+    cursor: pointer;
+    padding: 0.25em 1em;
+  }
+
+  p {
+    font-size: 0.9rem;
+    font-style: italic;
+  }
+}
+
+.btn {
+  border: none;
+  padding: 0.25em 0.5em;
+  border-radius: 0.5em;
+}
+
+.btn-success {
+  background-color: green;
+  color: white;
+  padding-block: 0.5em;
+}
+
+.btn-danger {
+  cursor: pointer;
+  background: lightcoral;
+  color: white;
+  margin-left: 0.5em;
+}
